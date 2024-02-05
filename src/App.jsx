@@ -1,10 +1,12 @@
+import Servicios from './components/Servicios'
 import Inicio from './components/Inicio'
 
 function App() {
 	return (
-	<>
-		<Inicio/>
-	</>
+		<>
+      <Inicio/>
+		  <Servicios />
+		</>
 	)
 }
 
