@@ -4,8 +4,8 @@ import Inicio from './components/Inicio'
 function App() {
 	return (
 		<>
-      <Inicio/>
-		  <Servicios />
+			<Inicio />
+			<Servicios />
 		</>
 	)
 }
