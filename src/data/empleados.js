@@ -20,7 +20,7 @@ export const empleados = [
     {
         id: 4 ,
         img: "",
-        nombre:"Francis RBK",
-        rol: "El mas pete"
+        nombre:"Francis",
+        rol: "Python & React Resolver"
     },
 ]
