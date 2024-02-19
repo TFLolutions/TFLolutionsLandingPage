@@ -9,8 +9,8 @@ function App() {
 		<>
 			<Inicio />
 			<Servicios />
-			<ContactoStepper />
 			<Nosotros/>
+			<ContactoStepper />
 			<Footer/>
 		</>
 	)
