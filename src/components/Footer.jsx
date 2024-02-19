@@ -1,6 +1,5 @@
 const Footer = () => {
     return (
-      
       <footer className="bg-white dark:bg-gray-900 mt-10">
           <div className="max-w-screen-2xl px-4 py-8 mx-auto lg:py-8">
               <div className="md:flex md:justify-between">
@@ -71,7 +70,6 @@ const Footer = () => {
           </div>
           </div>
       </footer>
-  
     )
-  }
-  export default Footer
+}
+export default Footer
