@@ -48,7 +48,7 @@ const DistintosServicios = [
 const Servicios = () => {
     return (
         <>
-            <div className='mt-5 grid grid-cols-1 lg:grid-cols-4 gap-3 gap-y-9 ml-10'>
+            <div className='mt-5 flex flex-col items-center justify-items-center lg:grid lg:grid-cols-4 gap-3 gap-y-9 max-w-screen-2xl px-4 py-8 mx-auto'>
                 {
                     DistintosServicios.map((item, index) => (
                         <ServicioModelo
