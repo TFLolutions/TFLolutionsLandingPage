@@ -9,10 +9,7 @@ function App() {
 		<>
 			<Inicio />
 			<Servicios />
-			<div className="mt-10 bg-slate-300 flex flex-col gap-10 h-[50vh] items-center justify-center">
-				<ContactoStepper />
-			</div >
-
+			<ContactoStepper />
 			<Footer />
 		</>
 	)
