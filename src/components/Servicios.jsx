@@ -1,13 +1,13 @@
 import React from 'react'
-import ServicioModelo from './Servicios/ServicioModelo'
-import consultoria from '../assets/Servicios/consultoria.svg'
-import disenoapps from '../assets/Servicios/disenoapps.svg'
-import disenoweb from '../assets/Servicios/disenoweb.svg'
-import programacion from '../assets/Servicios/programacion.svg'
-import redessociales from '../assets/Servicios/redessociales.svg'
-import seo from '../assets/Servicios/seo.svg'
-import serviciotecnico from '../assets/Servicios/serviciotecnico.svg'
-import tiendaonline from '../assets/Servicios/tiendasonline.svg'
+import ServicioModelo from './../components/Servicios/ServicioModelo'
+import consultoria from '../../public/Servicios/consultoria.svg'
+import disenoapps from '../../public/Servicios/disenoapps.svg'
+import disenoweb from '../../public/Servicios/disenoweb.svg'
+import programacion from '../../public/Servicios/programacion.svg'
+import redessociales from '../../public/Servicios/redessociales.svg'
+import seo from '../../public/Servicios/seo.svg'
+import serviciotecnico from '../../public/Servicios/serviciotecnico.svg'
+import tiendaonline from '../../public/Servicios/tiendasonline.svg'
 
 
 const DistintosServicios = [
