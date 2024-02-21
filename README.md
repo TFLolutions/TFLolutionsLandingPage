@@ -1,8 +1,19 @@
-# React + Vite
+# Notas (02/02/2024)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Cambiar fuente una vez establecida la principal.
+- Cambiar colores una vez establecidos los principales.
 
-Currently, two official plugins are available:
+- #Links de interés
+- <p><a href="https://www.figma.com/file/ICzQ9yl7VuxMshRGvVJShn/Untitled?type=whiteboard&node-id=3-27&t=e8n3Ji2TpdVHeQDw-0" target="_blank">Figma</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+(12/02/2024)
+
+- El footer da error con el DOM (react)
+
+
+<h2>Tecnologias Utilizadas:</h2>
+
+- Vite
+- React
+- Tailwind
+- React-icons

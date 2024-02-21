@@ -1,6 +1,18 @@
+import Servicios from './components/Servicios'
+import Inicio from './components/Inicio'
+import Footer from './components/Footer'
+import ContactoStepper from './components/ContactoStepper'
+import Nosotros from './components/Nosotros'
+
 function App() {
 	return (
-		<h1 className='text-3xl font-bold underline text-red-500'>Hello world!</h1>
+		<>
+			<Inicio />
+			<Servicios />
+			<ContactoStepper />
+			<Nosotros/>
+			<Footer/>
+		</>
 	)
 }
 
