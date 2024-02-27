@@ -1,22 +1,30 @@
-import { Route, Routes } from "react-router-dom"
-import "./App.css";
-import { NavBar } from './components/NavBar';
-import { Nosotros, Contacto, Inicio, Clientes, Servicios } from "./components/pages"
+import Servicios from './components/Servicios'
+import Inicio from './components/Inicio'
+import Footer from './components/Footer'
+import ContactoStepper from './components/ContactoStepper'
+import Nosotros from './components/Nosotros'
+import NavBar from './components/NavBar'
 
 function App() {
 	return (
-		<div className="App">
-		<NavBar />
-		<Routes>
-			<Route path="/" element={<Inicio/>}/>
-			<Route path="/nosotros" element={<Nosotros/>}/>
-			<Route path="/contacto" element={<Contacto/>}/>
-			<Route path="/clientes" element={<Clientes/>}/>
-			<Route path="/servicios" element={<Servicios/>}/>
-		</Routes>
+	  <>
+	  	<NavBar/>
+		<div id="inicio">
+		  <Inicio />
 		</div>
-	);
-}
-
-
-export default App;
+		<div id="servicios">
+		  <Servicios />
+		</div>
+		<div id="contacto">
+		  <ContactoStepper />
+		</div>
+		<div id="nosotros">
+		  <Nosotros/>
+		</div>
+		<Footer/>
+	  </>
+	)
+  }
+  
+  export default App;
+  
