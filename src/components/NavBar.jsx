@@ -62,8 +62,8 @@ const NavBar = () => {
         <div className='flex items-center justify-between h-16'>
           <div className='flex items-center justify-center'>
             <a href='/' className='text-white font-semibold'>
-              <img src={Logo} alt='Logo' className='h-8 ml-6' />
-              No me Pagan
+              <img src={Logo} alt='Logo' className='h-8 ml-6 font-semibold' />
+              TF Solutions
             </a>
           </div>
           {/*NAVLINKS*/}
@@ -73,7 +73,8 @@ const NavBar = () => {
                 {navlinks.map((link, index) => (
                   <a
                     key={index}
-                    className='text-gray-300 transition-all duration-500 hover:text-blue-600 px-3 py-2 rounded-md text-md font-semibold'
+                    className='text-gray-300 transition-all duration-500 hover:text-blue-600 px-3 py-2 
+                    rounded-md text-md font-semibold'
                     href={link.link}
                   >
                     {link.title}
