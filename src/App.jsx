@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import ContactoStepper from './components/ContactoStepper'
 import Nosotros from './components/Nosotros'
 import NavBar from './components/NavBar'
+import Cuatrosiento from './components/Cuatrosiento'
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 		  <Nosotros/>
 		</div>
 		<Footer/>
+		<Cuatrosiento/>
 	  </>
 	)
   }

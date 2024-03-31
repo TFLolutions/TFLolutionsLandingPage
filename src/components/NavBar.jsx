@@ -104,7 +104,7 @@ const NavBar = () => {
             {navlinks.map((link, index) => (
               <a
                 key={index}
-                className='text-gray-300 hover:text-blue-600 transition duration-500 hover:scale-110 hover:-translate-y-1 ease-in-out
+                className='text-gray-300 hover:text-blue-600 transition duration-400 hover:scale-110 hover:-translate-y-1 ease-in-out
                 block px-3 py-2 rounded-md text-base font-medium'
                 href={link.link}
               >
