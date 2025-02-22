@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from './Logo/Logo.png';
+import logo from '../assets/logo.png';
 import { FaArrowUp } from 'react-icons/fa';
 
 const navlinks = [
@@ -54,7 +54,7 @@ const NavBar = () => {
         <div className='flex items-center justify-between h-16'>
           <div className='flex items-center justify-center'>
             <a href='/' className='text-white font-semibold'>
-              <img src={Logo} alt='Logo' className='h-8 ml-6 font-semibold' />
+              <img src={logo} alt='Logo' className='h-8 ml-6 font-semibold' />
             </a>
           </div>
           {/*NAVLINKS*/}

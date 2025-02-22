@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import ServicioModelo from './../components/Servicios/ServicioModelo'
-import Modal from './Contacto/Modal/Modal.jsx'
+import Modal from './Contacto/Modal/Modal'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -25,6 +24,12 @@ const DistintosServicios = [
         title: "Diseño Web",
         description: "Creamos sitios web atractivos y funcionales para tu negocio",
         color: "bg-[#FFD66B]"
+    },
+    {
+        iconName: "FaRobot",
+        title: "IA",
+        description: "Desarrollamos aplicaciones de Inteligencia Artificial para tu negocio",
+        color: "bg-[#6B46C1]"
     },
     {
         iconName: "FaStore",
@@ -56,12 +61,7 @@ const DistintosServicios = [
         description: "Ofrecemos asesoramiento en tecnologías y soluciones informáticas",
         color: "bg-[#FFB4B4]"
     },
-    {
-        iconName: "FaRobot",
-        title: "IA",
-        description: "Desarrollamos aplicaciones de Inteligencia Artificial para tu negocio",
-        color: "bg-[#6B46C1]"
-    },
+   
 ]
 
 const Servicios = () => {
