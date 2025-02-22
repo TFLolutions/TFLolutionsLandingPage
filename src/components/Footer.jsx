@@ -2,14 +2,7 @@ const Footer = () => {
     return (
       <footer className="bg-white dark:bg-gray-900 mt-10">
           <div className="max-w-screen-2xl px-4 py-8 mx-auto lg:py-8">
-              <div className="md:flex md:justify-between">
-              <div className="mb-6 md:mb-0">
-                  <a href="#" className="flex items-center">
-                          {/* Aca va el logo */}
-                      <img src="" className="h-8 me-3" alt="TecnoFix Logo" />
-                      <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TecnoFix</span>
-                  </a>
-              </div>
+            <div className="md:flex md:justify-between">
               <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                   
                   <div>

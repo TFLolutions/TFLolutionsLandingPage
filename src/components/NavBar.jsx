@@ -13,10 +13,6 @@ const navlinks = [
     link: '#servicios',
   },
   {
-    title: 'Contacto',
-    link: '#contacto',
-  },
-  {
     title: 'Nosotros',
     link: '#nosotros',
   },
@@ -57,13 +53,12 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className='bg-black relative top-0 z-50'>
+    <div className='bg-black fixed w-full top-0 z-50'>
       <div className='mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex items-center justify-between h-16'>
           <div className='flex items-center justify-center'>
             <a href='/' className='text-white font-semibold'>
               <img src={Logo} alt='Logo' className='h-8 ml-6 font-semibold' />
-              TF Solutions
             </a>
           </div>
           {/*NAVLINKS*/}
