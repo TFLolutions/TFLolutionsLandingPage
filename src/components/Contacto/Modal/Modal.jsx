@@ -1,6 +1,21 @@
+import { FaCode, FaMobile, FaGlobe, FaStore, FaSearch, FaShareAlt, FaTools, FaLightbulb, FaRobot } from 'react-icons/fa';
+
+const iconComponents = {
+    FaCode,
+    FaMobile,
+    FaGlobe,
+    FaStore,
+    FaSearch,
+    FaShareAlt,
+    FaTools,
+    FaLightbulb,
+    FaRobot
+};
 
 const Modal = ({ isOpen, closeModal, selectedService }) => {
-    if (!isOpen) return null;
+    if (!isOpen || !selectedService) return null;
+
+    const IconComponent = iconComponents[selectedService.iconName];
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -18,11 +33,7 @@ const Modal = ({ isOpen, closeModal, selectedService }) => {
             {/* Contenido del modal */}
             <div className="flex flex-col items-center">
                 <div className={`${selectedService?.color} p-6 rounded-full mb-6`}>
-                    <img 
-                        src={selectedService?.icono} 
-                        alt={selectedService?.titulo}
-                        className="w-16 h-16 object-contain"
-                    />
+                    {IconComponent && <IconComponent className="w-24 h-24 text-white" />}
                 </div>
                 <h3 className="text-2xl font-bold mb-4">{selectedService?.titulo}</h3>
                 <p className="text-gray-600 text-center">

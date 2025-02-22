@@ -14,7 +14,11 @@ const Inicio = () => {
                             'Crea',
                             'Actualiza',
                             'Planifica',
-                            'Crecé'
+                            'Crecé',
+                            'Aprende',
+                            'Comparte',
+                            'Disfruta',
+                            'Conecta 👽'
                         ]}
                         typeSpeed={100}
                         backSpeed={50}
@@ -25,12 +29,17 @@ const Inicio = () => {
                 
                 <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                     ¡Quiero contactar!
+                    <img src={Logo} alt='Logo' className='h-8 ml-6 font-semibold' />
                 </a> 
             </div>
             {/* Imagen o foto tech */}
-            <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src={Logo} alt='Logo' className='h-8 ml-6 font-semibold' />
-        </div>                
+            <div className="hidden lg:mt-0 lg:col-span-5 lg:flex justify-end items-center">
+                <img 
+                    src={Logo} 
+                    alt='Logo' 
+                    className='h-96 w-auto object-contain' 
+                />
+            </div>                
     </div>
 </section>
   )

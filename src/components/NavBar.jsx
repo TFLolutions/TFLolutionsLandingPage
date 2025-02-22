@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from './Logo/Logo.png';
-import uparrow from '../../public/Servicios/uparrow.svg'
+import { FaArrowUp } from 'react-icons/fa';
 
 const navlinks = [
   {
@@ -11,10 +11,6 @@ const navlinks = [
   {
     title: 'Servicios',
     link: '#servicios',
-  },
-  {
-    title: 'Nosotros',
-    link: '#nosotros',
   },
   {
     title: 'Clientes',
@@ -116,7 +112,7 @@ const NavBar = () => {
           py-3.5 px-3.5 rounded-full animate-bounce'
           onClick={scrollToTop}
         >
-          <img src={uparrow} alt='To top' className='h-5 w-5' />
+          <FaArrowUp className='h-5 w-5' />
         </button>
       )}
     </div>

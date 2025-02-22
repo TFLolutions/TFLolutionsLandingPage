@@ -1,7 +1,6 @@
 import Servicios from './components/Servicios'
 import Inicio from './components/Inicio'
 import Footer from './components/Footer'
-import Nosotros from './components/Nosotros'
 import NavBar from './components/NavBar'
 
 function App() {
@@ -13,9 +12,6 @@ function App() {
 		</div>
 		<div id="servicios">
 		  <Servicios />
-		</div>
-		<div id="nosotros">
-		  <Nosotros/>
 		</div>
 		<Footer/>
 	  </>

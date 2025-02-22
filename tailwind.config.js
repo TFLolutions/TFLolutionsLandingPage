@@ -12,4 +12,9 @@ export default {
 		extend: {},
 	},
 	plugins: [],
+	variants: {
+		extend: {
+			backgroundImage: ['hover', 'focus'],
+		}
+	},
 }
