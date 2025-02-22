@@ -2,7 +2,7 @@ import { FC, useState } from 'react';
 import Modal from './Contacto/Modal/Modal';
 import { ReactTyped } from 'react-typed';
 import { Service } from '../types';
-import logo from '../assets/logo.png';
+import logo from './Logo/Logo.png';
 
 const Inicio: FC = () => {
     const contactService: Service = {

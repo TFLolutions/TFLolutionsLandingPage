@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import logo from '../assets/logo.png';
+import logo from './Logo/Logo.png';
 import { FaArrowUp } from 'react-icons/fa';
 
 const navlinks = [
